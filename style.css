@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ab9d9d;
+    text-transform:uppercase;
+}
+p{text-transform: lowercase;}
+.container{
+    background-color: #fff;
+    width:80% ;
+    padding: 15px;
+    border-radius: 30px;
+    margin: auto;
+}
+.img img{
+    width: 100%;
+}
+.size{
+    display: flex;
+    flex-direction: row;
+}
+.size .box{
+    border: 1px solid #ab9d9d ;
+    margin: 5px;
+    padding: 6px;
+}
+.price, h3 ,h5{
+    color:pink;
+    padding: 10px 0;
+}
+.cart, .ox{
+    background-color:pink ;
+    border: 0;
+    padding:10px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+@media only screen and (min-width:768px){
+    .container{
+        margin: 100px auto;
+        width: 600px;
+        padding:15px;
+    }
+    .img img {
+        max-width: 100%;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+    }
+    .about{
+        margin: 25px 50px 0 50px;
+    }
+}
